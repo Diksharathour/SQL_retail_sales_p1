@@ -16,11 +16,13 @@ The retail_sales database provide insights into customer purchasing behavior, pr
 4. **Business Analysis Using SQL-** Developed a series of SQL queries to address key business questions examining customer behavior, identifying top-performing products, analyzing shifts in buying patterns, and comparing revenue against COGS to assess profitability across categories.
 5. **Insights & Recommendations-** Findings from the SQL analysis were used to derive actionable business insights for decision-makers in marketing, sales strategy, and inventory planning.
 
+
 ## Project Structure
 
 1. **Database Setup**
 
 •	**Database Creation:** The project starts by creating a database named sql_query_p1.
+
 •	**Table Creation:** A table named retail_sales is created to store the sales data. The table includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS) and total sale amount.
 
 ```sql
