@@ -4,13 +4,13 @@
 
 **Project Title:** Retail Sales Analysis
 **Level:** Beginner
-**Database:** 'p1_retail_db'
+**Database:** `p1_retail_db`
 
-The retail_sales database provide insights into customer purchasing behavior, product performance, and revenue generation. This database supports in-depth exploratory and diagnostic analysis to identify key business trends and opportunities. With fields capturing age, gender, category, price, and time of sale, it enables the development of metrics like average order value, customer lifecycle, conversion rate, and sales seasonality.
+The `retail_sales` database provide insights into customer purchasing behavior, product performance, and revenue generation. This database supports in-depth exploratory and diagnostic analysis to identify key business trends and opportunities. With fields capturing age, gender, category, price, and time of sale, it enables the development of metrics like average order value, customer lifecycle, conversion rate, and sales seasonality.
 
 ## Objectives
 
-1. **Database Setup-** Created and structured the retail_sales database using SQL. 
+1. **Database Setup-** Created and structured the `retail_sales` database using SQL. 
 2. **Data Cleaning-** Identified and handled missing or null values, especially in key columns like age, category, and total sales, ensuring data integrity and accuracy for analysis.
 3. **Exploratory Data Analysis (EDA)-** Conducted initial analysis to understand data distribution, customer demographics, sales trends, and category performance using SQL queries and visual summaries.
 4. **Business Analysis Using SQL-** Developed a series of SQL queries to address key business questions examining customer behavior, identifying top-performing products, analyzing shifts in buying patterns, and comparing revenue against COGS to assess profitability across categories.
@@ -21,9 +21,8 @@ The retail_sales database provide insights into customer purchasing behavior, pr
 
 1. **Database Setup**
 
-•	**Database Creation:** The project starts by creating a database named sql_query_p1.
-
-•	**Table Creation:** A table named retail_sales is created to store the sales data. The table includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS) and total sale amount.
+- **Database Creation:** The project starts by creating a database named `sql_query_p1`.
+- **Table Creation:** A table named `retail_sales` is created to store the sales data. The table includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS) and total sale amount.
 
 ```sql
 create database sql_project_p1
@@ -181,17 +180,17 @@ order by profit_margin_percentage desc;
 ## Findings & Insights
 
 1. **Sales Demographics-**
-•	The total number of transactions made by female customers slightly more those than males.
-•	A large share of sales is driven by customers age group >40, positioning them as the most profitable target audience.
+- The total number of transactions made by female customers slightly more those than males.
+- A large share of sales is driven by customers age group >40, positioning them as the most profitable target audience.
 
-3. **Time-Based Sales Insights-**
-•	The evening (after 5 PM) is the busiest shopping time.
-•	Sundays usually have the highest number of sales.
+2. **Time-Based Sales Insights-**
+- The evening (after 5 PM) is the busiest shopping time.
+-	Sundays usually have the highest number of sales.
 
-4. **Customer Purchase Behavior-**
-•	Many customers buy more than once, which shows strong customer retention and loyalty.
-•	Younger customers (especially under 25) tend to buy more beauty products.
+3. **Customer Purchase Behavior-**
+-	Many customers buy more than once, which shows strong customer retention and loyalty.
+-	Younger customers (especially under 25) tend to buy more beauty products.
 
 
 ## Conclusion
-The analysis of the retail_sales database provides key insights into customer purchasing behavior and business performance. The 25–40 age group is the most profitable segment, while clothing is the top-selling category. Most purchases occur in the morning and afternoon, with Monday being the slowest day for sales. Gender distribution is fairly balanced, and repeat purchases highlight strong customer loyalty. Category-wise revenue and profit margin comparisons help identify the most profitable product lines. Overall, these insights enable better targeting, inventory planning, and marketing strategies to improve sales performance and customer engagement.
+The analysis of the `retail_sales` database provides key insights into customer purchasing behavior and business performance. The 25–40 age group is the most profitable segment, while clothing is the top-selling category. Most purchases occur in the morning and afternoon, with Monday being the slowest day for sales. Gender distribution is fairly balanced, and repeat purchases highlight strong customer loyalty. Category-wise revenue and profit margin comparisons help identify the most profitable product lines. Overall, these insights enable better targeting, inventory planning, and marketing strategies to improve sales performance and customer engagement.
