@@ -182,11 +182,11 @@ order by profit_margin_percentage desc;
 •	The total number of transactions made by female customers slightly more those than males.
 •	A large share of sales is driven by customers age group >40, positioning them as the most profitable target audience.
 
-2. **Time-Based Sales Insights**
+3. **Time-Based Sales Insights**
 •	The evening (after 5 PM) is the busiest shopping time.
 •	Sundays usually have the highest number of sales.
 
-3. **Customer Purchase Behavior**
+4. **Customer Purchase Behavior**
 •	Many customers buy more than once, which shows strong customer retention and loyalty.
 •	Younger customers (especially under 25) tend to buy more beauty products.
 
